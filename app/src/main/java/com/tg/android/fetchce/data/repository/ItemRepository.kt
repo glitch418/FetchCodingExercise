@@ -1,7 +1,7 @@
 package com.tg.android.fetchce.data.repository
 
-import FetchApi
 import com.tg.android.fetchce.data.model.Item
+import com.tg.android.fetchce.data.remote.FetchApi
 import com.tg.android.fetchce.data.remote.NetworkResult
 import com.tg.android.fetchce.domain.repository.IItemRepository
 import kotlinx.coroutines.flow.Flow

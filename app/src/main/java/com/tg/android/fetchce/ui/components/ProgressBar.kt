@@ -1,3 +1,5 @@
+package com.tg.android.fetchce.ui.components
+
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationVector1D
 import androidx.compose.foundation.layout.height

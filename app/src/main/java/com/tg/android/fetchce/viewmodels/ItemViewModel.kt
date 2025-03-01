@@ -22,10 +22,10 @@ class ItemViewModel(
     private val _uiState = MutableStateFlow<ItemsUiState>(ItemsUiState.Loading)
     val uiState: StateFlow<ItemsUiState> = _uiState.asStateFlow()
 
-    private val _sortBy = MutableStateFlow<ItemSortOption>(ItemSortOption.ALPHABETICAL)
+    private val _sortBy = MutableStateFlow(ItemSortOption.ALPHABETICAL)
     val sortBy: StateFlow<ItemSortOption> = _sortBy.asStateFlow()
 
-    private val _currListId = MutableStateFlow<Int>(0)
+    private val _currListId = MutableStateFlow(0)
     val currListId: StateFlow<Int> = _currListId.asStateFlow()
 
     private var originalData: List<GroupedItems> = emptyList()
@@ -34,7 +34,7 @@ class ItemViewModel(
         fetchItems()
     }
 
-    fun fetchItems() {
+    private fun fetchItems() {
         viewModelScope.launch {
             // Note: onEach is not a performance issue
             // as only one list(irrespective of size) is emitted

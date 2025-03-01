@@ -1,6 +1,5 @@
 package com.tg.android.fetchce.ui.screens.splash
 
-import ProgressBar
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -11,10 +10,9 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.tg.android.fetchce.data.model.Item
 import com.tg.android.fetchce.ui.components.AppBox
 import com.tg.android.fetchce.ui.components.AppText
-import com.tg.android.fetchce.ui.components.ItemRow
+import com.tg.android.fetchce.ui.components.ProgressBar
 import kotlinx.coroutines.delay
 
 @Composable

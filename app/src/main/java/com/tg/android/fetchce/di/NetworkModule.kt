@@ -1,6 +1,6 @@
 package com.tg.android.fetchce.di
 
-import FetchApi
+import com.tg.android.fetchce.data.remote.FetchApi
 import com.tg.android.fetchce.data.repository.ItemRepository
 import com.tg.android.fetchce.domain.repository.IItemRepository
 import com.tg.android.fetchce.domain.usecase.GetItemsUseCase

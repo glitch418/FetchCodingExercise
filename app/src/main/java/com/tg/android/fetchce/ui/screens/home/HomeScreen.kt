@@ -1,3 +1,5 @@
+package com.tg.android.fetchce.ui.screens.home
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

@@ -1,6 +1,5 @@
 package com.tg.android.fetchce
 
-import HomeScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,6 +12,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import com.tg.android.fetchce.di.NetworkModule
+import com.tg.android.fetchce.ui.screens.home.HomeScreen
 import com.tg.android.fetchce.ui.screens.splash.SplashScreen
 import com.tg.android.fetchce.viewmodels.ItemViewModel
 import com.tg.android.fetchce.ui.theme.FetchCETheme
